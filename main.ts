@@ -1,5 +1,5 @@
 // make.fun entry: "The One-Line AI Excuse for Breaking Production"
-// One line, 84 characters: the excuse an AI agent gives its human
+// One line, 69 characters: the excuse an AI agent gives its human
 // right after breaking production. The program writes it verbatim
 // to /output/entry.txt.
 
@@ -7,7 +7,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const EXCUSE =
-  "I only changed one line. Unfortunately, it was the line holding production together.";
+  "I fixed production by caching the error page. It loads instantly now.";
 
 const TARGET = "/output/entry.txt";
 const MAX_CHARS = 180;
